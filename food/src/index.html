@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Comida Mexicana  "Don Cris"</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Inicio</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contacto</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="../assets/img/los-habitos-alimenticios-en-mexico.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">"DON CRIS"</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="../assets/img/comida_mexicana_6221_620x413.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Acerca de "Don Cris"</h1><br>
+      <h5 class="w3-center">Tradiccion desde 1889</h5>
+      <p class="w3-large">Todo comenzo en 1889 cuando a "Don cris " le gustaba mucho investigar las comidas de diferentes paises , un dia cuando el  viajaba como de costumbre "Don Cris " se topo con la comida mexicana y quedo enamorado</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Desde el dia 1 que probo la comida penso en hacer un restaurante de comida mexicana y al mes siguiente puso su propio restaurante.<br> La mejor comida mexicana en Nueva York</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Nuestro Menu</h1><br>
+      <h4>POSOLE</h4>
+      <p class="w3-text-grey">Un plato de posole con refresco por solo $35.00</p><br>
+    
+      <h4>TACOS DE CAMARON</h4>
+      <p class="w3-text-grey">Orden de tacos de camaron por solo $40.00</p><br>
+    
+      <h4>QUESADILLAS</h4>
+      <p class="w3-text-grey">Orden por solo $25.00</p><br>
+    
+      <h4>SOPES</h4>
+      <p class="w3-text-grey">Orden por solo $25.00</p><br>
+    
+      <h4>CHILAQUILES</h4>
+      <p class="w3-text-grey">Rojos y verdes por solo $50.00</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="../assets/img/gua.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>CONTACTO</h1><br>
+    <p>Ofrecemos servicio completo de catering para cualquier evento, grande o pequeño. Entendemos sus necesidades y proporcionaremos los alimentos para satisfacer los criterios más exigentes de todos, tanto el aspecto como el sabor. No dude en ponerse en contacto con nosotros.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>ESCRIBE A NUESTRO CORREO DONCRIS@HOTMAIL.COM</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="escribe tu nombre" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="cantidad de personas" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="escribe la hora " required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Mandanos un mensaje" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">GUARDA TU MENSAJE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+
+</body>
+</html>
